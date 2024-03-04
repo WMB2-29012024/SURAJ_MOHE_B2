@@ -4,3 +4,12 @@
 
 const strArr = "asdasdzxczxc";
 
+function ReverseStr(arr){
+       let ReversedStr= '';
+
+     for(let i=arr.length - 1; i>=0; i--){
+         ReversedStr+=arr[i]
+     }
+     return ReversedStr;
+}
+console.log(ReverseStr(strArr));

@@ -6,4 +6,11 @@ const numArr = [1, 234_45, 89,75, 4e9]
 const strArr = ["asd", "qwe", "ert", "asdasdzxczxc"]
 const mixArr = ["first", "234_45", {first: "Web", last: "Masters"}, true]
     
+function ReverseElems(arr){
+     for(let i=arr.length-1; i>0; i--)
+     console.log(arr[i]);
+}
 
+ReverseElems(numArr)
+ReverseElems(strArr)
+ReverseElems(mixArr)
