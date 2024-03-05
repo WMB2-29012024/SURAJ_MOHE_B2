@@ -4,6 +4,9 @@
 */
 
 function formatToTwoDigits(num) {
-  // Write your code here
+  
+  return num.toFixed(2);
 }
 
+console.log(formatToTwoDigits(3)); 
+console.log(formatToTwoDigits(3.14159));
