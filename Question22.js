@@ -4,3 +4,11 @@
 */
 
 // Use the .startsWith() method
+
+
+let originalString = "A new string with words.";
+
+let startWithString = originalString.startsWith("A");
+
+
+console.log(startWithString);

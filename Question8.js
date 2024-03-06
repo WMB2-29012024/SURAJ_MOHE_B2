@@ -4,3 +4,8 @@
 */
 
 
+const value = "hello";
+const isNotANumber = isNaN(value);
+
+console.log(isNotANumber);
+

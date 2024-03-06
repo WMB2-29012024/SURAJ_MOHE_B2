@@ -4,3 +4,9 @@
 */
 
 // Use the .includes() method
+
+let startingString = "A new string with words.";
+
+let addOnThis = startingString.includes("string")
+
+console.log(addOnThis);

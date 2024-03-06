@@ -4,3 +4,10 @@
 */
 
 // Use the .charAt() method with a positive index
+
+const orignalString ="Hello, World!";
+
+let  characters = orignalString.charAt(2);
+
+
+console.log(characters);

@@ -4,3 +4,9 @@
 */
 
 // Use the .charCodeAt() method
+const orignalString ="Hello, World!";
+
+let  characters = orignalString.charAt(0);
+
+
+console.log(characters);

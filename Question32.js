@@ -4,3 +4,10 @@
 */
 
 // Use the .search() method
+
+const orignalString ="Hello, World!";
+
+let  characters = orignalString.search('e');
+
+
+console.log(characters);

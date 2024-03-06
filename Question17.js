@@ -4,3 +4,9 @@
 */
 
 // Use the .split() method with a limit
+
+
+const splitString = "A new string with words.";
+const newString = splitString.split(" ",3);
+
+console.log(newString);

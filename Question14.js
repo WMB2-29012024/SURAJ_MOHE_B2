@@ -4,3 +4,9 @@
 */
 
 // Use the .toUpperCase() method
+
+
+const orignalString =  "a new string with words.";
+const uppercaseString = orignalString.toUpperCase()
+
+console.log(uppercaseString);

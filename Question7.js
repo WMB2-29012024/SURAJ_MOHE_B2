@@ -4,3 +4,10 @@
 */
 
 
+const num = 10;
+const isIntegerNum = Number.isInteger(num);
+
+console.log(isIntegerNum); 
+
+
+

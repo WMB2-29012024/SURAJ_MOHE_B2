@@ -4,3 +4,7 @@
 */
 
 
+const value = 2589;
+const isNotANumber = isNaN(value);
+
+console.log(isNotANumber);

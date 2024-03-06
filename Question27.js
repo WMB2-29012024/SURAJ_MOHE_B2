@@ -4,3 +4,9 @@
 */
 
 // Use the .trimStart() method
+
+const orignalString = "   Hello, World!   ";
+
+let  removeStartSpace = orignalString.trimStart();
+
+console.log(removeStartSpace);

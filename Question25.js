@@ -4,3 +4,8 @@
 */
 
 // Use the .trim() method
+
+let orignalStirng = "  Hello, World!  "
+let removeWhiteSpace = orignalStirng.trim();
+
+console.log(removeWhiteSpace);

@@ -4,3 +4,11 @@
 */
 
 // Use the .at() method with a negative index
+
+const orignalString ="Hello, World!";
+
+let  characters = orignalString.charAt(orignalString.length - 3);
+
+
+console.log(characters);
+

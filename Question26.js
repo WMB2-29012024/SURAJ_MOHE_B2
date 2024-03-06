@@ -4,3 +4,9 @@
 */
 
 // Use the .trimEnd() method
+
+const orignalString = "   Hello, World!   ";
+
+let  removeEndSpace = orignalString.trimEnd();
+
+console.log(removeEndSpace);

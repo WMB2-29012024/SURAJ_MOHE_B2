@@ -4,3 +4,10 @@
 */
 
 // Use the .includes() method
+
+
+let staringString = "A new string with words.";
+
+let  addThis = staringString.includes("STRING");
+
+console.log(addThis);

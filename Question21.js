@@ -4,3 +4,11 @@
 */
 
 // Use the .endsWith() method
+
+
+
+let originalString = "A new string with words."
+
+let endsWithString = originalString.endsWith("A");
+
+console.log(endsWithString);

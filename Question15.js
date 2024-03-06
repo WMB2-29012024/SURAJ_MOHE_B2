@@ -4,3 +4,9 @@
 */
 
 // Use the .toLowerCase() method
+
+
+const orignalstirng = "A NEW STRING WITH WORDS.";
+const LowercaseString = orignalstirng.toLowerCase();
+
+console.log(LowercaseString)

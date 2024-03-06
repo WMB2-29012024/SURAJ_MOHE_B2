@@ -4,3 +4,9 @@
 */
 
 
+const str = "3.14";
+const num = parseFloat(str)
+
+console.log(num);
+
+

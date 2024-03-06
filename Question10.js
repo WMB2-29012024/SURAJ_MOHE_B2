@@ -4,3 +4,7 @@
 */
 
 
+const value = 9007199254740991;
+const isSafeInteger = Number.isSafeInteger(value);
+
+console.log(isSafeInteger); 

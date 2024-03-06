@@ -4,3 +4,9 @@
 */
 
 // Use the .replace() method with a string
+
+const orignalString ="Hello, World!";
+
+let  replaceString = orignalString.replace('l','z');
+
+console.log(replaceString);

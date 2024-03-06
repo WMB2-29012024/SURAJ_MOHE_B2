@@ -4,3 +4,10 @@
 */
 
 // Use the .codePointAt() method
+
+const orignalString ="Hello, World!";
+
+let  characters = orignalString.codePointAt(0);
+
+
+console.log(characters);

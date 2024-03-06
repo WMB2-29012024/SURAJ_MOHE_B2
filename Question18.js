@@ -4,3 +4,7 @@
 */
 
 // Use the .substring() method
+const originalString = "A new string with words.";
+const substring = originalString.substring(2, 12);
+
+console.log(substring);

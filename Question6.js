@@ -3,4 +3,10 @@
 /* Question 6: Check and log if the number 5 is finite using the .isFinite() method.
 */
 
+const num = 5;
+
+const isFiniteNum =  Number.isFinite(num);
+
+console.log(isFiniteNum);
+
 
