@@ -1,13 +1,15 @@
 // Problem Statement
 
-// Given a string, write a function that uses a stack to reverse the string. The function should return the reversed string.
+// Given a positive integer n, write a function that returns its binary equivalent as a string. The function should not use any in-built binary conversion function.
 
 // Examples
 
 // Example 1:
 
-// Input: "Hello, World!"
-// Output: "!dlroW ,olleH"
+// Input: 2
+// Output: "10"
+// Explanation: The binary equivalent of 2 is 10.
+
 class Stack{
      constructor(size){
        this.stack =[] ;
@@ -52,20 +54,24 @@ class Stack{
           return this.removeItem
      }
 }
+  const s = 2;
 
-const s = "Hello, World!";
-
-const stringWorld =(str) =>{
+const arrayOfString = (num) =>{
+   
+     let stack = new Stack();
      let string = "";
-     let stack = new Stack(s.length)
-     for (let i = 0; i<str.length; i++) {
-          stack.stackPush(str[i])
-     }
-     let abc ="";
-     while(!stack.isEmpty()){
-          abc += stack.stackPop();
-     }
-     return abc;
-}
+      while(num !== 0){
+          if(num % 2 ==0){
+               stack.stackPush("0")
+          }else{
+               stack.stackPush("1")
+          }
+          num = Math.floor(num/2)
+      }
 
-console.log(stringWorld(s));
+     return stack;
+}
+console.log(arrayOfString(s));
+
+
+ 
