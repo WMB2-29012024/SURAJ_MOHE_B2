@@ -1,0 +1,59 @@
+
+body{
+     position: relative;
+     overflow: hidden;
+     background-color: rgba(0, 0, 0, 0.232);
+}
+table{
+     padding: 2px;
+     border: 2px solid black;
+}
+td{
+     font-size: 12px;
+     padding: 5px;
+     font-family: gilroy;
+     font-weight: 500;
+     background-color: rgba(91, 132, 139, 0.388);
+     border: 2px solid rgb(250, 174, 74);
+}
+tr:hover{
+     font-size: 10px;
+     color: red;
+}
+
+thead th{
+     align-items: center;
+     font-family: gilroy;
+     text-transform: uppercase;
+     font-size: 30px;
+     background-color: rgb(169, 255, 248);
+}
+thead th input{
+     border-radius: 10px;
+     font-size: 15px;
+     padding: 5px;
+}
+thead th:nth-child(3){
+     display: flex;
+     flex-direction: column;
+     /* background-color: red; */
+}
+#btn-conatainer{
+     position: fixed;
+     bottom: 0%;
+     width: 100%;
+     height: 50px;
+     background-color: rgb(147, 214, 222);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+button{
+     background-color: rgba(51, 234, 109, 0.596);
+     font-size: large;
+     display: flex;
+     padding: 10px 15px;
+}
+#page-number{
+     font-size: 30px;
+}
