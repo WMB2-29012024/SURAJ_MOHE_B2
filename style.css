@@ -1,0 +1,40 @@
+* { 
+margin:0;
+padding:0;
+box-sizing:border-box;
+ } 
+html,body {
+width:100%;
+height:100%;
+ } 
+ #main{
+     font-family: gilroy;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     width: 100%;
+     height: 100%;
+     /* background-color: rgb(166, 142, 190); */
+ }
+ label{
+     font-weight: 900;
+     font-size: 40px;
+ }
+ input{
+     padding: 5px 15px;
+     font-size: 23px;
+ }
+ .display{
+     font-weight: bold;
+     font-size: 80px;
+ }
+.buttons button{
+     margin-left: 20px;
+     border-radius: 20px;
+     font-size: 28px;
+     padding: 8px 25px;
+     background-color: blue;
+     color: #ffff;
+}
