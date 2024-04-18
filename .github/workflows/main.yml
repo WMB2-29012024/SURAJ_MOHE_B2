@@ -5,6 +5,7 @@ on:
     branches:
       - '*'
 
+
 jobs:
   get-branch-name-commit-hash-commits-and-changes:
     runs-on: ubuntu-latest
