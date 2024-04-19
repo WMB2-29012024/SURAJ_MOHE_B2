@@ -3,7 +3,8 @@ const display = document.querySelector(".display")
 
 let remainingTime = 0;
 let timer;
-let isPaused = false;
+let pause = false;
+let pauseTime; 
 
 const startTimer = () =>{
      if(timer){
@@ -36,7 +37,9 @@ const displayTime =()=>{
 }
 
 const pauseTimer = () => {
-     clearInterval(timer)
+     pause = true;
+     clearInterval(timer);
+     pauseTime = remainingTime
  };
  
  
