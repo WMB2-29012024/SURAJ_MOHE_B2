@@ -8,71 +8,26 @@ width:100%;
 height:100%;
  } 
  #main{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 100%;
-     height: 90%;
-     /* background-color: red; */
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #F4F2EE;
+    /* background-color: red; */
  }
  #center{
-     padding: 10px;
-     margin-top: 8%;
-     width: 60%;
-     height: 100%;
-     background-color: red;
+    border-radius: 10px;
+    width: 70%;
+    height: 80%;
+    background-color: #fff;
+    /* background-color: rebeccapurple; */
  }
  #background-img{
-     position: relative;
-     width: 100%;
-     height: 35%;
-     background-color: rebeccapurple;
- }
- #background-img>input{
-     position: absolute;
-     right:0%;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: red;
  }
  #background-img>label{
-     position: absolute;
-     top: 5%;
-     right:2%;
- }
- #background-img>label>i{
-     padding: 10px;
-     font-size: 25px;
-     border-radius: 50%;
-     background-color: #989696;
- }
- #background-img>img{
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
- }
- #dp-img{
-     overflow: hidden;
-     position: absolute;
-     top: 25%;
-     margin-left: 10px;
-     width: 200px;
-     height: 200px;
-     border-radius: 50%;
-     background-color: rgb(54, 209, 23);
- }
- #dp-img>img{
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
- }
-
- #dp-img>label{
-     position: absolute;
-     top: 70%;
-     right:10%;
-     z-index: 999999;
- }
- #dp-img>label>i{
-     padding: 10px;
-     font-size: 25px;
-     border-radius: 50%;
-     background-color: #989696;
+    position: absolute;
+    top: 10%;
  }
