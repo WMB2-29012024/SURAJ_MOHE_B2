@@ -1,0 +1,69 @@
+* { 
+  font-family: "gilroy";
+margin:0;
+padding:0;
+box-sizing:border-box;
+ } 
+html,body {
+
+padding:  10px 20px;
+width:100%;
+height:100%;
+ }
+ .Main{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+ }
+
+ button{
+  color: white;
+  padding: 0px 20px;
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  background-color: #010101f7
+ }
+ .Card{
+  padding: 10px;
+  width: 381px;
+  height:218px;
+  border-radius: 20px;
+  background-color: rebeccapurple;
+}
+.Card-part1{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start ;
+  gap: 10px;
+  width: 100%;
+  height: 65px;
+  /* background-color: red; */
+}
+ .Dp-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(97, 149, 30);
+ }
+ h4{
+  font-weight: 100;
+  text-transform: capitalize;
+ }
+.Host{
+  font-size: 20px;
+  padding: 8px 15px;
+  border-radius: 15px;
+  color: blue;
+  background-color:#a8a7a7;
+}
+.Title{
+  margin-top: 5px;
+  width: 100%;
+  height: 80px;
+  /* background-color: red; */
+}
+h3{
+  font-weight: 100;
+}
