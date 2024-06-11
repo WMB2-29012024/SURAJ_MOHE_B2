@@ -35,3 +35,59 @@ td>p{
 .icon-section{
   margin-left: 15px;
 }
+.dletepop{
+ 
+  /* display: none; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 343px;
+  height: 294px;
+  background-color: white;
+}
+.dlettop{
+  padding: 10px 8px;
+  width: 343px;
+  height: 157px;
+  background-color: white;
+}
+.dletop-part1{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dletop-part2{
+  margin-top: 10px;
+}
+.dletop-part2>h1{
+  font-size: 20px;
+}
+.dletbottom{
+  align-content: center;
+  padding: 10px 8px;
+  width: 343px;
+  height: 157px;
+  /* background-color: rgb(50, 155, 21); */
+}
+.deltebtn{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 19, 19, 0.84);
+}
+.canclebtn{
+  cursor: pointer;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  /* background-color: rebeccapurple; */
+}
